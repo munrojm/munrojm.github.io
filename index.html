@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#faf9f6">
+    <title>Jason M. Munro</title>
+    <meta name="description" content="Jason Munro is the cofounder and CTO of Atomscale. Materials science, AI, and scientific software, from atom to scale.">
+    <meta property="og:title" content="Jason M. Munro">
+    <meta property="og:description" content="Materials science, AI, and scientific software. Cofounder & CTO at Atomscale.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://munrojm.github.io/">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="https://munrojm.github.io/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      try {
+        const theme = localStorage.getItem('munro-theme');
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page">
+      <header class="masthead">
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.8 13.3A9 9 0 0 1 10.7 3.2 9 9 0 1 0 20.8 13.3Z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+      </header>
+
+      <main id="main">
+        <section class="intro" aria-labelledby="name">
+          <div class="title-row">
+            <h1 id="name">Jason M. Munro</h1>
+            <span class="location"><span class="location-dot" aria-hidden="true"></span>Boston, MA</span>
+          </div>
+
+          <div class="bio">
+            <p>Hi, I’m Jason. I’m the cofounder and CTO of
+              <span class="annotation-wrap">
+                <a class="annotation" href="https://atomscale.ai/" data-note="atomscale-note">
+                  <img class="brand-mark" src="assets/atomscale.png" width="21" height="21" alt="">
+                  <span>Atomscale</span><span class="annotation-plus" aria-hidden="true">+</span>
+                </a>
+                <span class="note" id="atomscale-note" role="dialog" aria-labelledby="atomscale-title" hidden>
+                  <span class="note-eyebrow">Cofounder &amp; CTO · 2024–present</span>
+                  <span class="note-title" id="atomscale-title">From atom to scale.</span>
+                  <span class="note-copy">AI for materials synthesis: connecting process data, understanding material state, and helping engineers control fabrication in real time.</span>
+                  <a class="note-link" href="https://atomscale.ai/">Explore Atomscale <span aria-hidden="true">↗</span></a>
+                  <button class="note-close" type="button" aria-label="Close Atomscale preview">×</button>
+                </span>
+              </span>, where we’re building the intelligence layer for atomic-scale engineering.</p>
+
+            <p>I work at the intersection of materials science, AI/ML, and scientific software. I’m interested in closing the loop between what we can predict about a material and what we can reliably <em class="handline">make</em>—from the first experiment to production.</p>
+
+            <p>Previously, I co-led technical development of the
+              <span class="annotation-wrap">
+                <a class="annotation" href="https://materialsproject.org/" data-note="materials-note">
+                  <img class="brand-mark materials-mark" src="assets/materials-project-icon.png" width="21" height="21" alt="">
+                  <span>Materials Project</span><span class="annotation-plus" aria-hidden="true">+</span>
+                </a>
+                <span class="note" id="materials-note" role="dialog" aria-labelledby="materials-title" hidden>
+                  <span class="note-eyebrow">Berkeley Lab · 2019–2024</span>
+                  <span class="note-title" id="materials-title">Making materials data useful.</span>
+                  <span class="note-copy">An open database and software ecosystem for discovering and understanding materials, making computed properties and scientific tools available to researchers worldwide.</span>
+                  <a class="note-link" href="https://materialsproject.org/">Visit the Materials Project <span aria-hidden="true">↗</span></a>
+                  <button class="note-close" type="button" aria-label="Close Materials Project preview">×</button>
+                </span>
+              </span> at Berkeley Lab, helping grow the world’s most-cited materials database and software stack to over half a million users.</p>
+
+            <p>I have a PhD in materials science and engineering and a bachelor’s in engineering physics. My doctoral and postdoctoral research spanned materials physics, AI/ML, and data-driven approaches to
+              <span class="annotation-wrap">
+                <a class="annotation" href="https://scholar.google.com/citations?user=cJ69wJ0AAAAJ" data-note="research-note">
+                  <svg class="mini-mark research-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z M4 7.5l8 4.5 8-4.5M12 12v9" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="3" r="2" fill="currentColor"/><circle cx="4" cy="16.5" r="2" fill="currentColor"/><circle cx="20" cy="16.5" r="2" fill="currentColor"/></svg>
+                  <span>materials discovery</span><span class="annotation-plus" aria-hidden="true">+</span>
+                </a>
+                <span class="note" id="research-note" role="dialog" aria-labelledby="research-title" hidden>
+                  <span class="note-eyebrow">Research themes</span>
+                  <span class="note-title" id="research-title">Physics, learning, and data.</span>
+                  <span class="note-copy">My work connects materials physics with AI/ML and large-scale datasets to understand how materials behave, predict their properties, and guide discovery.</span>
+                  <a class="note-link" href="https://scholar.google.com/citations?user=cJ69wJ0AAAAJ">Google scholar <span aria-hidden="true">↗</span></a>
+                  <button class="note-close" type="button" aria-label="Close research preview">×</button>
+                </span>
+              </span>.</p>
+          </div>
+        </section>
+
+        <section class="work-section" aria-labelledby="software-heading">
+          <div class="section-heading">
+            <h2 id="software-heading">Open source</h2>
+            <a class="section-more" href="https://github.com/munrojm">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="section-intro">I’ve created, maintained, and contributed to software used by over 2,700 projects and downloaded 80M+ times.</p>
+        </section>
+
+        <section class="work-section research-section" aria-labelledby="research-heading">
+          <div class="section-heading">
+            <h2 id="research-heading">Selected research</h2>
+            <a class="scholar-link" href="https://scholar.google.com/citations?user=cJ69wJ0AAAAJ">All publications on Google Scholar <span aria-hidden="true">↗</span></a>
+          </div>
+          <ul class="paper-list">
+            <li><a href="https://doi.org/10.1038/s41563-025-02272-0">Accelerated data-driven materials science with the Materials Project <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">Nature Materials <span aria-hidden="true">·</span> 2025</span></li>
+            <li><a href="https://doi.org/10.1021/acs.nanolett.4c04500">Predicting and Accelerating Nanomaterial Synthesis Using Machine Learning Featurization <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">Nano Letters <span aria-hidden="true">·</span> 2024</span></li>
+            <li><a href="https://doi.org/10.1039/D3DD00233K">An equivariant graph neural network for the elasticity tensors of all seven crystal systems <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">Digital Discovery <span aria-hidden="true">·</span> 2024</span></li>
+            <li><a href="https://www.nature.com/articles/s41524-020-00383-7">An improved symmetry-based approach to reciprocal space path selection in band structure calculations <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">npj Computational Materials <span aria-hidden="true">·</span> 2020</span></li>
+            <li><a href="https://doi.org/10.1126/sciadv.abd1076">High-throughput search for magnetic and topological order in transition metal oxides <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">Science Advances <span aria-hidden="true">·</span> 2020</span></li>
+            <li><a href="https://doi.org/10.1103/PhysRevB.98.085107">Discovering minimum energy pathways via distortion symmetry groups <span class="outbound" aria-hidden="true">↗</span></a><span class="paper-meta">Physical Review B <span aria-hidden="true">·</span> 2018</span></li>
+          </ul>
+        </section>
+
+        <section class="elsewhere" aria-labelledby="elsewhere-heading">
+          <h2 id="elsewhere-heading">Elsewhere</h2>
+          <nav class="social-links" aria-label="Find me online">
+            <a href="https://www.linkedin.com/in/jason-munro-861a2a97/">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/munrojm">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://scholar.google.com/citations?user=cJ69wJ0AAAAJ">Scholar <span aria-hidden="true">↗</span></a>
+            <a href="https://x.com/jsnmunro">X <span aria-hidden="true">↗</span></a>
+          </nav>
+          <p class="contact">Working on something in materials, AI, or scientific software?<br class="desktop-break"> <a href="https://www.linkedin.com/in/jason-munro-861a2a97/">Let’s connect.</a></p>
+        </section>
+      </main>
+
+      <footer><span>© <span id="year">2026</span> Jason M. Munro</span></footer>
+    </div>
+  </body>
+</html>
