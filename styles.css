@@ -74,7 +74,7 @@ h1 { color: var(--strong); font-family: Georgia, "Times New Roman", serif; font-
 .bio p { margin: 0 0 20px; }
 .handline { position: relative; font-family: Georgia, "Times New Roman", serif; font-size: 1.12em; color: var(--strong); }
 .handline::after { content: ""; position: absolute; left: -1px; bottom: -3px; width: 103%; height: 5px; border-top: 1.5px solid var(--accent); border-radius: 50%; transform: rotate(-5deg); opacity: .7; }
-.annotation-wrap { display: inline-flex; vertical-align: baseline; }
+.annotation-wrap { display: inline-flex; vertical-align: middle; }
 .annotation { display: inline-flex; align-items: center; gap: 5px; padding: 1px 6px 1px 4px; border: 1px solid var(--line); border-radius: 5px; background: var(--chip); color: var(--strong); text-decoration: none; font: inherit; font-size: .94em; font-weight: 500; line-height: 1.45; vertical-align: baseline; white-space: nowrap; cursor: pointer; transition: background .15s, border-color .15s; }
 .annotation:hover, .annotation[aria-expanded="true"] { background: var(--chip-hover); border-color: var(--accent); color: var(--strong); }
 .annotation-plus { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 1px; }
